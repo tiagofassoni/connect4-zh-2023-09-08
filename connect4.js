@@ -20,7 +20,7 @@ function makeBoard() {
   for (let i = 0; i<WIDTH; i++){
     board[i] = []
     for (let x = 0; x<HEIGHT; x++){
-      board[i][x] = [];
+      board[i][x] = 0;
     }
   }
 }
